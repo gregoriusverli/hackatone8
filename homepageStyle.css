@@ -1,0 +1,33 @@
+body {
+  background-color: #5cdb95;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+.navbar {
+  background-color: #05386b;
+}
+.form-control {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+  .form-control {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+/* style produk*/
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+  border: 1px solid black;
+}
+
+/* style produk*/
