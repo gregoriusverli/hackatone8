@@ -11,18 +11,18 @@
 
 // Key adalah ID produk
 const databaseProduct = {
-    500: {image: 'assets/produk1.jpg', namaProduk: 'Kemeja Wanita Biru Stripe', hargaProduk: 150000, stokProduk: 5},
-    501: {image: 'assets/produk2.jpg', namaProduk: 'Blouse Wanita', hargaProduk: 250000, stokProduk: 11},
-    502: {image: 'assets/produk3.jpg', namaProduk: 'Kemeja Wanita', hargaProduk: 100000, stokProduk: 0},
-    503: {image: 'assets/produk4.jpg', namaProduk: 'Kemeja Pria Berkerah Navy', hargaProduk: 150000, stokProduk: 7},
+    500: {image: 'assets/produk1.jpg', namaProduk: 'Kemeja Biru Stripe', hargaProduk: 150000, stokProduk: 5},
+    501: {image: 'assets/produk2.jpg', namaProduk: 'Blouse Wanita Mantap', hargaProduk: 250000, stokProduk: 11},
+    502: {image: 'assets/produk3.jpg', namaProduk: 'Kaos 3Second Wanita', hargaProduk: 100000, stokProduk: 0},
+    503: {image: 'assets/produk4.jpg', namaProduk: 'Kemeja Berkerah Navy', hargaProduk: 150000, stokProduk: 7},
     504: {image: 'assets/produk5.jpg', namaProduk: 'Kemeja Pria Hitam', hargaProduk: 175000, stokProduk: 6},
     505: {image: 'assets/produk6.jpg', namaProduk: 'Baju Pria Turtleneck', hargaProduk: 135000, stokProduk: 0},
-    506: {image: 'assets/produk7.jpg', namaProduk: 'Celana Bahan Pria', hargaProduk: 210000, stokProduk: 0},
-    507: {image: 'assets/produk8.jpg', namaProduk: 'Chinos Pria', hargaProduk: 175000, stokProduk: 12},
+    506: {image: 'assets/produk7.jpg', namaProduk: 'Celana Bahan Pria Anti Sobek', hargaProduk: 210000, stokProduk: 0},
+    507: {image: 'assets/produk8.jpg', namaProduk: 'Chinos Pria Mahal Agak Murah', hargaProduk: 175000, stokProduk: 12},
     508: {image: 'assets/produk9.jpg', namaProduk: 'Celana Olahraga Pria', hargaProduk: 95000, stokProduk: 3},
-    509: {image: 'assets/produk10.jpg', namaProduk: 'Celana Cargo Pria', hargaProduk: 115000, stokProduk: 15},
-    510: {image: 'assets/produk11.jpg', namaProduk: 'Boxer Pria', hargaProduk: 55000, stokProduk: 24},
-    511: {image: 'assets/produk12.jpg', namaProduk: 'Celana Dalam Pria', hargaProduk: 40000, stokProduk: 8}
+    509: {image: 'assets/produk10.jpg', namaProduk: 'Celana Cargo Pria Terbaik', hargaProduk: 115000, stokProduk: 15},
+    510: {image: 'assets/produk11.jpg', namaProduk: 'Boxer Pria Anti Air dan Api', hargaProduk: 55000, stokProduk: 24},
+    511: {image: 'assets/produk12.jpg', namaProduk: 'Celana Dalam Pria Anti Basah', hargaProduk: 40000, stokProduk: 8}
 }
 
 // Key: ID
