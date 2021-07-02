@@ -30,13 +30,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
                     <a class="nav-cart icon" href="#cart"><i class="fas fa-cart-plus fa-2x"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Log out</a>
+                    <a class="nav-link active" aria-current="page" href="/loginPage.html">Log out</a>
                   </li>
                 </ul>
               </div>
@@ -45,22 +42,22 @@
           <!--Awal Navbar-->
 
           <!--Awal Carousel-->
-          <div class="container">
-          <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
-            <div class="carousel-indicators  ms-auto">
+          <div class="container text-center">
+          <div id="carouselExampleIndicators" class="carousel slide mt-5 text-center" data-bs-ride="carousel">
+            <div class="carousel-indicators  ms-auto text-center">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/slide1.png" class="d-block img-fluid" alt="...">
+                <img src="assets/slide1.png" class="d-block text-center img-fluid" alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="assets/slide2.jpg" class="d-block img-fluid" alt="...">
+              <div class="carousel-item ">
+                <img src="assets/slide2.jpg" class="d-block text-center img-fluid " alt="...">
               </div>
-              <div class="carousel-item">
-                <img src="assets/slide3.jpeg" class="d-block img-fluid" alt="...">
+              <div class="carousel-item ">
+                <img src="assets/slide3.jpeg" class="d-block text-center img-fluid " alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -119,7 +116,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-2 com-sm-4 col-6 mt-3">
-                    <div id="507" class="card text-center productList">
+                    <div id="507" class="card text-center productList" >
                       <!-- Product Cards di inject disini pake cart.js-->
                     </div>
                 </div>
@@ -138,7 +135,7 @@
                       <!-- Product Cards di inject disini pake cart.js-->
                   </div>
                 </div>
-                <div class="col-lg-2 col-md-2 com-sm-4 col-6 mt-3">
+                <div class="col-lg-2 col-md-2 com-sm-4 col-6 mt-3" >
                   <div id="511" class="card text-center productList">
                       <!-- Product Cards di inject disini pake cart.js-->
                   </div>
@@ -171,7 +168,7 @@
 
           </table>
 
-          <div class="judul-produk" style="background-color: #05385B; padding: 5px 10px;">
+          <div class="judul-produk" style="background-color: #05385B; padding: 5px 10px; text-size-adjust: font: 1em sans-serif;;">
             <h5 id="total-price-cart" class="text-center alert alert-warning" style="margin-top: 5px; color: black;">Total: Rp105.000</h5>
           </div>
 
@@ -180,9 +177,34 @@
           <a id="checkout-button" class="btn btn-primary d-grid mt-2 1" onclick="checkout()">Checkout</a></td><br><br>
         </div>
 
+ <!--Footerrr-->  
+ <footer class="bg-dark p-4 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-start">
+        <a href="#">
+          <img src="http://newprep.hacktiv8.s3-website-ap-southeast-1.amazonaws.com/static/logo-hacktiv8-f7ee5fc69819b5ef3849344c119f5e18.png" style=" width: 40px;">
+         </a>
+         <span class = "ps-1" style="color: white;">Copyright @2021 | Hackton8 Nairobi Fox | Group 5</span>
+       </div>
+       
+       <div class="col-md-6 text-end">
+         <a href="#">
+           <img src="https://image.flaticon.com/icons/png/512/2111/2111398.png" class="ms-2" style=" width: 30px;">
+         </a>
+         <a href="#">
+           <img src="https://image.flaticon.com/icons/png/512/2111/2111463.png" class="ms-2"  style=" width: 30px;">
+         </a>
+         <a href="#">
+           <img src="https://image.flaticon.com/icons/png/512/2111/2111688.png" class="ms-2"  style=" width: 30px;">
+         </a>
+       </div>
+       
+     </div>
+   </div>
+ </footer>
+ <!--Footerrr-->
 
-
-<br><br><br><br><br><br>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="cart.js"></script>
   </body>
