@@ -8,6 +8,10 @@
  */
 
 // ======================================================= Database ======================================================= 
+var path = window.location.pathname;
+var page = path.split("/").pop();
+
+
 
 // Key adalah ID produk
 const databaseProduct = {
@@ -30,6 +34,8 @@ const databaseProduct = {
 // productInCart = { '500': 5, '501': 2, '507': 5 }
 let productInCart = {}
 
+
+let currentPage 
 
 // ===============================================================================================================================
 
@@ -57,7 +63,6 @@ function addToCart(productID, qty) {
     renderCart() // update tampilan cart
     renderProductList() // update product list => stok berubah atau produk hilang
     updateTotal() // update tampilan total
-
     return productInCart
 }
 
@@ -152,6 +157,7 @@ function renderCart() {
 
 // Render semua product di homepage (termasuk dipanggil kalau ada perubahan stok (ditambah ke cart, cart ada yg di delete))
 function renderProductList() {
+
     const productList = document.getElementsByClassName('productList')
 
     let count = 1
@@ -227,11 +233,17 @@ function renderProductList() {
 
 // Tombol checkout
 function checkout() {
-    const checkoutButton = document.getElementById('checkout-button')
-    window.location.replace('checkout.html')
-    return productInCart
+    if(Object.keys(productInCart).length === 0) {
+        return alert('Cart masih kosong!')
+    } else { 
+        currentPage = 'checkout'
+        localStorage.setItem("listCheckoutProduct", JSON.stringify(productInCart));
+        window.location.replace('checkout.html')
+        // console.log(JSON.stringify(productInCart))
+    }
 }
 
-
-renderProductList()
-renderCart()
+if(page === 'homepage.html') {
+    renderProductList()
+    renderCart()
+} 
