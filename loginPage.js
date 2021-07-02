@@ -22,7 +22,7 @@ const dataLogin = [
     {
         username: 'azrullahkainage',
         password: 'aji123'
-    },
+    }
 ]
 
 
@@ -61,7 +61,7 @@ loginButton.addEventListener ('click', (e) => {
         console.log(output)
         
     if (output === true) {
-        return window.location.replace("/hackatone8/homepage.html")
+        return window.location.replace("/homepage.html")
     } else {
         return incorrectPassword.innerHTML = `Incorrect username or password`
     }
