@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" href="loginPage.css">
+</head>
+<body>
+
+    <div class="content">
+    <div class="textBox">
+        <h2>WELCOME TO <br><span>SAGE STORE</span><br></h2>
+        <h3><br>When you feel you need new clothes for all the needs that support your life, then <span>SAGE STORE</span> can be all your worries and answer your needs for your fashion needs.</h3>
+    </div>
+    
+    <form class="login-form">
+        <p id="checkerpsw"></p>
+        <h1>Login</h1>
+        <div class="textb">
+        <input id="username" type="text" required>
+        <div class="placeholder">Username</div>
+        </div>
+
+    <div class="textb">
+      <input id="password" type="password" required>
+      <div class="placeholder">Password</div>
+      <div class="show-password fas fa-eye-slash"></div>
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox">
+      <div class="fas fa-check"></div>
+      Stay signed in
+    </div>
+
+    <button id="loginButton" class="btn fas fa-arrow-right" disabled></button>
+    <a href="#">Can't Sign in?</a>
+    <a href="#">Create Account</a>
+  </form>
+  <script src="loginPage.js"></script>
+</body>
+</html>
