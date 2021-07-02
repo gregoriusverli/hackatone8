@@ -45,14 +45,18 @@ loginButton.addEventListener ('click', (e) => {
         if (dataLogin[i].username === usernameLogin.value) {
             if (passwordLogin.value === dataLogin[i].password) {
                 output = true
+                break;
             } else {
                 output = false
+                break;
             }
         } else if (dataLogin[i].password === passwordLogin.value) {
             if (usernameLogin.value === dataLogin[i].username) {
                 output = true
+                break;
             } else {
                 output = false
+                break;
             }
         } else {
             output = false
